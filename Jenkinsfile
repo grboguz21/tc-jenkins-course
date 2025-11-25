@@ -12,7 +12,7 @@ pipeline {
                   sh 'ls -al'
               }
           }
-          stage('Show ROS environment variables') {
+          stage('Show 22 ROS environment variables') {
               steps {
                   sh 'env | grep ROS'
               }
